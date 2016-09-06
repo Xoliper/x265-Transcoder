@@ -6,7 +6,7 @@
 #include <string>
 
 
-	//===================================================================================
+
 	const X265_NS::CUData* X265_NS::CUData::getCuNeighbor(uint32_t absIdx, uint32_t & neighbor, uint32_t log2CUSize, int vert, int hor)
 	{
 		uint32_t raster = g_zscanToRaster[absIdx];
@@ -26,7 +26,7 @@
 		uint32_t x_neighbor, y_neighbor;
 		y_neighbor = y + vert*height_in_part;
 		x_neighbor = x + hor*width_in_part;
-		//--------------------------------------------
+
 		int off = 0;
 		/* 0 = is act CTU
 
@@ -41,7 +41,7 @@
 		return this->neighborCTU(off);
 
 	}
-	//===================================================================================
+
 	const X265_NS::CUData* X265_NS::CUData::neighborCTU(int offset) {
 		/* 0 = is act CTU
 		-4; -3; -2;
@@ -83,7 +83,7 @@
 			break;
 		}
 	}
-	//===================================================================================
+
 	int X265_NS::CUData::offset(uint32_t& pos_neighbor)
 	{
 		if (pos_neighbor > 15) {
@@ -99,14 +99,12 @@
 			return 0;
 		}
 	}
-	//===================================================================================
+
 
 
 	Transcoder::Transcoder(const char * path_to_index_file)
 	{
 		int size = strlen(path_to_index_file);
-		//m_ptif = new char[size]; 
-		//memset(m_ptif, '-1', size);
 		strncpy(m_ptif, path_to_index_file, size);
 		m_ptif[size] = '\0';
 		
@@ -120,8 +118,6 @@
 
 
 	void Transcoder::configure(int mode, int throwOnes, int throwProp) {
-		std::string dupa = "dupa";
-		dupa = dupa * "5";
 
 		m_mode = mode;
 		m_throwOnes = throwOnes;
@@ -134,94 +130,6 @@
 		}
 
 	}
-
-	/*
-	bool Transcoder::checkIntra(X265_NS::CUData * parentCTU, const X265_NS::CUGeom& cuGeom, int mode) {
-
-		int oldAbsPartIdx = cuGeom.absPartIdx;
-		int log2CUSize = cuGeom.log2CUSize;
-		int masterFlag = true;
-
-		int goSize = (1 << log2CUSize) / (1 << log2CUSize-2);
-		uint32_t edgeSize = (1 << (log2CUSize - 2));
-
-
-		//for (int i = 0; i <1; i++) {
-
-			//Obliczanie nowej pozycji
-			coords crd;
-			uint32_t absPartIdx = X265_NS::g_zscanToRaster[oldAbsPartIdx];
-			uint32_t xInRaster = absPartIdx / 16;
-			uint32_t yInRaster = absPartIdx % 16;
-
-
-			if (mode == RIGHT) {
-				xInRaster += edgeSize;
-			}
-			else if (mode == RIGHTBELOW) {
-				xInRaster += edgeSize;
-				yInRaster += edgeSize;
-			}
-			else if (mode == BELOW) {
-				yInRaster += edgeSize;
-			}
-			else if (mode == LEFTBELOW) {
-				xInRaster -= edgeSize;
-				yInRaster += edgeSize;
-			}
-
-
-			crd.x = xInRaster;
-			crd.y = yInRaster;
-			if (yInRaster * 16 + xInRaster < 256) {
-				crd.error = TRANSCODER_OK;
-			}
-
-
-			//Pozyskanie interesuj¹cego nas CU
-			const X265_NS::CUData * ctu;
-			if (crd.error != TRANSCODER_ERROR) {
-
-				int offset;
-				offset = 3 * getOffset(crd.x);
-				offset += getOffset(crd.y);
-
-				switch (offset) {
-				case -4: ctu = parentCTU->m_cuAboveLeft; break;
-				case -3: ctu = parentCTU->m_cuAbove; break;
-				case -2: ctu = parentCTU->m_cuAboveRight; break;
-				case -1: ctu = parentCTU->m_cuLeft; break;
-				case 0:  ctu = parentCTU; break;
-				case 1:  ctu = parentCTU->m_cuRight; break;
-				case 2:  ctu = parentCTU->m_cuBelowLeft; break;
-				case 3:  ctu = parentCTU->m_cuBelow; break;
-				case 4:  ctu = parentCTU->m_cuBelowRight; break;
-				default: ctu = NULL;
-				}
-
-			}
-			else {
-				ctu = NULL;
-			}
-
-			//Sprawdzanie 
-			if (ctu != NULL && ctu->isInter(crd.y * 16 + crd.x)) {
-				return false;
-			}
-			else if (ctu == NULL) {
-				return false;
-			}
-
-			//Wystarczy obliczyæ tylko to
-			//oldAbsPartIdx += edgeSize;
-
-		//}
-
-		return masterFlag;
-	}
-	*/
-
-	
 
 
 	void Transcoder::recursiveCU(X265_NS::CUData * parentCTU, const X265_NS::CUGeom& cuGeom, int pos)
@@ -248,7 +156,6 @@
 			below = belowRight = right = belowLeft = true;
 
 
-			//----------------------------------------------------------------------
 			uint32_t neighborIdx[4] = { 0,0,0,0 };
 
 			const X265_NS::CUData* ctuRight = parentCTU->getCuNeighbor(cuGeom.absPartIdx, neighborIdx[0], cuGeom.log2CUSize, 0, 1);
@@ -256,17 +163,11 @@
 			const X265_NS::CUData* ctuBelow = parentCTU->getCuNeighbor(cuGeom.absPartIdx, neighborIdx[2], cuGeom.log2CUSize, 1, 0);
 			const X265_NS::CUData* ctuBelowLeft = parentCTU->getCuNeighbor(cuGeom.absPartIdx, neighborIdx[3], cuGeom.log2CUSize, 1, -1);
 
-			/*for (size_t i = 0; i < 4; i++)
-			{
-			neighborIdx[i] = g_rasterToZscan[neighborIdx[i]];
-			}
-			*/
+
 			uint32_t x, y, x_neighbor, y_neighbor, iterator;
 			int sizeInPart = 1 << (cuGeom.log2CUSize - 2);
 			if (ctuRight != NULL)
 			{
-				//right = !ctuRight->isInter(neighborIdx[0]);
-				//neighborIdx[0] = g_zscanToRaster[neighborIdx[0]];
 
 				y = neighborIdx[0] / 16;
 				x = neighborIdx[0] % 16;
@@ -289,8 +190,7 @@
 			}
 			if (ctuBelow != NULL)
 			{
-				//right = !ctuRight->isInter(neighborIdx[0]);
-				//neighborIdx[0] = g_zscanToRaster[neighborIdx[0]];
+
 				y = neighborIdx[2] / 16;
 				x = neighborIdx[2] % 16;
 				for (size_t i = 0; i < sizeInPart; i++)
@@ -326,24 +226,6 @@
 				recursiveTU(parentCTU, x, pos);
 			}
 
-
-
-
-
-
-			/*int masterFlag = true;
-			if (checkIntra(parentCTU, cuGeom, RIGHT) != true)	   masterFlag = false;
-			if (checkIntra(parentCTU, cuGeom, LEFTBELOW) != true)  masterFlag = false;
-			if (checkIntra(parentCTU, cuGeom, BELOW) != true)	   masterFlag = false;
-			if (checkIntra(parentCTU, cuGeom, RIGHTBELOW) != true) masterFlag = false;
-
-
-			if (masterFlag) {
-				X265_NS::CUGeom tuGeom = X265_NS::CUGeom(cuGeom); tuGeom.depth = 0;
-				if (!(cuGeom.flags & X265_NS::CUGeom::INTRA)) { // && parentCTU->isInter(cuGeom.absPartIdx)
-					recursiveTU(parentCTU, tuGeom, pos);
-				}
-			}*/
 		
 			
 		}
@@ -378,7 +260,7 @@
 		else
 		{
 
-
+			//By default all options are 0
 			int size = 1 << tuGeom.log2CUSize;
 			size *= size;
 			int numSig = countNonZero(size, parentCTU, pos);
@@ -442,7 +324,7 @@
 		LARGE_INTEGER li; li.QuadPart = jump;
 		SetFilePointerEx(hFile, li, NULL, FILE_BEGIN);
 
-		//Load SAO data
+		//Load/Save SAO data
 		DWORD ionumber;
 		POCFileHandler(hFile, &sp->bSaoFlag[0], sizeof(bool), &ionumber, m_mode);
 		POCFileHandler(hFile, &sp->bSaoFlag[1], sizeof(bool), &ionumber, m_mode);
@@ -467,8 +349,6 @@
 			X265_NS::x265_log(false, X265_LOG_ERROR, "Transcoder cannot open .poc file! \n");
 		}
 
-
-
 		//Calculate position and execute that jump
 		long jump = sizeof(uint8_t) * 10 * ctu->m_numPartitions + sizeof(int8_t) * 2 * ctu->m_numPartitions + sizeof(uint32_t) * 1 + sizeof(uint8_t) * 2 * ctu->m_numPartitions +
 			sizeof(coeff_t)*SIZE_L_MAX + sizeof(X265_NS::MV)*ctu->m_numPartitions * 4 + sizeof(uint8_t)*ctu->m_numPartitions + sizeof(uint32_t) * 7 + sizeof(int8_t)*ctu->m_numPartitions;
@@ -482,14 +362,14 @@
 		//Lets write/read something!
 		DWORD ionumber;
 		POCFileHandler(hFile, &ctu->m_cuAddr, sizeof(uint32_t), &ionumber, m_mode);
-		POCFileHandler(hFile, &ctu->m_absIdxInCTU, sizeof(uint32_t), &ionumber, m_mode); //UWAGA
+		POCFileHandler(hFile, &ctu->m_absIdxInCTU, sizeof(uint32_t), &ionumber, m_mode); 
 		POCFileHandler(hFile, &ctu->m_cuPelX, sizeof(uint32_t), &ionumber, m_mode);
 		POCFileHandler(hFile, &ctu->m_cuPelY, sizeof(uint32_t), &ionumber, m_mode);
 		POCFileHandler(hFile, &ctu->m_numPartitions, sizeof(uint32_t), &ionumber, m_mode);
 		POCFileHandler(hFile, &ctu->m_chromaFormat, sizeof(uint32_t), &ionumber, m_mode);
 		POCFileHandler(hFile, &ctu->m_hChromaShift, sizeof(uint32_t), &ionumber, m_mode);
 		POCFileHandler(hFile, &ctu->m_vChromaShift, sizeof(uint32_t), &ionumber, m_mode);
-		POCFileHandler(hFile, ctu->m_qp, sizeof(int8_t)*ctu->m_numPartitions, &ionumber, m_mode); //TUTAJ
+		POCFileHandler(hFile, ctu->m_qp, sizeof(int8_t)*ctu->m_numPartitions, &ionumber, m_mode); 
 		POCFileHandler(hFile, ctu->m_log2CUSize, sizeof(uint8_t)*ctu->m_numPartitions, &ionumber, m_mode);
 		POCFileHandler(hFile, ctu->m_lumaIntraDir, sizeof(uint8_t)*ctu->m_numPartitions, &ionumber, m_mode);
 		POCFileHandler(hFile, ctu->m_refIdx[0], sizeof(int8_t)*ctu->m_numPartitions, &ionumber, m_mode);

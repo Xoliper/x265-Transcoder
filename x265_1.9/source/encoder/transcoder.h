@@ -10,10 +10,6 @@
 #define SAO_FILE 0
 #define POC_FILE 1
 
-#define RIGHT 1
-#define LEFTBELOW 2
-#define BELOW 3
-#define RIGHTBELOW 4
 
 #define TRANSCODER_ERROR -1
 #define TRANSCODER_OK 0
@@ -28,15 +24,8 @@
 namespace X265_NS { class CUData; struct CUGeom; struct SAOParam; }
 
 
-
 class Transcoder {
 
-	typedef struct {
-		int error = TRANSCODER_ERROR;
-		//int edgeSize = 0;
-		int x;
-		int y;
-	} coords;
 
 	public:
 
@@ -54,10 +43,6 @@ class Transcoder {
 		void recursiveTU(X265_NS::CUData * ctu, const X265_NS::CUGeom& cuGeom, int pos);
 		int countNonZero(int size, X265_NS::CUData * ctu, int offset);
 		
-		bool checkIntra(X265_NS::CUData * parentCTU, const X265_NS::CUGeom& cuGeom, int mode);
-		
-
-
 		char m_ptif[256];
 		int m_mode, m_throwOnes, m_throwProp;
 };
