@@ -19,3 +19,7 @@ This application, encode an raw image (.yuv) into High Efficiency Video Coding f
 
 ### Usage example:
     x265.exe --input D:\Work\Source\Crew_1280x704.yuv --output D:\Work\encCoder.h265  --input-res 1280x704 --frames 25  --fps 25 --no-signhide --transcoder-file D:\Work\RawData --transcoder-mode 0 --ones-throw 0 --throw-prop 1
+    
+    
+### Note:
+     Python script is not done yet
