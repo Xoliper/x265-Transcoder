@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>--input E:\Praktyki\Work\Source\Crew_1280x704.yuv --output E:\Praktyki\Work\encCoder.h265 --transcoder-file E:\Praktyki\Work\ALLData --transcoder-mode 0 --ones-throw 10000 --throw-prop 1  --input-res 1280x704 --frames 25  --fps 25 --no-signhide </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

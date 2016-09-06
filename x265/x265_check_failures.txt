@@ -1,0 +1,402 @@
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:708
+inter TU must be smaller than CU when not 2Nx2N part size: log2CurSize 3, depthRange[0] 2
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1244
+invalid copy source context
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1284
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+e:\praktyki\x265_1.9\source\encoder\rdcost.h:135
+calcRdSADCost wrap detected dist: 11996, bits 2, lambda: 14829735431805717965
+e:\praktyki\x265_1.9\source\encoder\rdcost.h:135
+calcRdSADCost wrap detected dist: 11996, bits 2, lambda: 14829735431805717965
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1617
+ctxIdx check failure
+E:\Praktyki\x265_1.9\source\common\quant.h:121
+transform CG is too large
+E:\Praktyki\x265_1.9\source\common\quant.h:121
+transform CG is too large
+E:\Praktyki\x265_1.9\source\common\dct.cpp:857
+sign bit mistake
+E:\Praktyki\x265_1.9\source\common\dct.cpp:857
+sign bit mistake
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1291
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1291
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1617
+ctxIdx check failure
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1617
+ctxIdx check failure
+E:\Praktyki\x265_1.9\source\common\quant.h:121
+transform CG is too large
+E:\Praktyki\x265_1.9\source\common\dct.cpp:857
+sign bit mistake
+E:\Praktyki\x265_1.9\source\common\dct.cpp:857
+sign bit mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1811
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1291
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1291
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1781
+sign bit mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1787
+sigCtx mistake!
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1292
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1292
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1293
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1293
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:703
+intra NxN requires TU depth below CU depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:716
+min sized TU cannot be subdivided
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:720
+transform size failure
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:720
+transform size failure
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:720
+transform size failure
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1617
+ctxIdx check failure
+E:\Praktyki\x265_1.9\source\common\quant.h:121
+transform CG is too large
+E:\Praktyki\x265_1.9\source\common\quant.h:124
+cgBlkPos is too large
+E:\Praktyki\x265_1.9\source\common\dct.cpp:857
+sign bit mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1521
+baseLevel check failurr
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1522
+baseLevel check failurr
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1522
+baseLevel check failurr
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1522
+baseLevel check failurr
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1847
+costCoeffRemain check failure
+E:\Praktyki\x265_1.9\source\common\quant.h:140
+cgBlkPos is too large
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1819
+subCoeffFlag is zero
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1812
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\common\predict.cpp:93
+invalid P refidx
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1285
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1285
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:708
+inter TU must be smaller than CU when not 2Nx2N part size: log2CurSize 6, depthRange[0] 5
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1285
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:708
+inter TU must be smaller than CU when not 2Nx2N part size: log2CurSize 6, depthRange[0] 5
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\analysis.cpp:1666
+Evaluating merge in I slice
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:716
+min sized TU cannot be subdivided
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1811
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1811
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1811
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1811
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1564
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:955
+numRefs should have been > 0
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:716
+min sized TU cannot be subdivided
+E:\Praktyki\x265_1.9\source\encoder\frameencoder.cpp:1315
+Intra NxN found at improbable depth
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:712
+TU is larger than the max allowed, it should have been split
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1297
+invalid CU partition
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1812
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1812
+coefNum mistake
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:716
+min sized TU cannot be subdivided
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:708
+inter TU must be smaller than CU when not 2Nx2N part size: log2CurSize 27, depthRange[0] 5
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:708
+inter TU must be smaller than CU when not 2Nx2N part size: log2CurSize 28, depthRange[0] 5
+E:\Praktyki\x265_1.9\source\encoder\entropy.cpp:1565
+cbf check fail

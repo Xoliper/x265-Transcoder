@@ -1,0 +1,38 @@
+﻿  bitstream.cpp
+  common.cpp
+  constants.cpp
+  cpu.cpp
+E:\Praktyki\x265_1.9\source\common\cpu.cpp(277): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
+E:\Praktyki\x265_1.9\source\common\cpu.cpp(279): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
+  cudata.cpp
+  dct.cpp
+  deblock.cpp
+  frame.cpp
+  framedata.cpp
+  intrapred.cpp
+  ipfilter.cpp
+  loopfilter.cpp
+  lowres.cpp
+  md5.cpp
+  param.cpp
+  piclist.cpp
+  picyuv.cpp
+  pixel.cpp
+  predict.cpp
+  quant.cpp
+  scalinglist.cpp
+  shortyuv.cpp
+  slice.cpp
+  threadpool.cpp
+  vec-primitives.cpp
+  wavefront.cpp
+  winxp.cpp
+  asm-primitives.cpp
+  yuv.cpp
+  dct-sse3.cpp
+  dct-sse41.cpp
+  dct-ssse3.cpp
+  primitives.cpp
+  threading.cpp
+  version.cpp
+  common.vcxproj -> E:\Praktyki\x265\common\common.dir\Release\common.lib

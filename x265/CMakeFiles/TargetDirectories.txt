@@ -1,0 +1,10 @@
+E:/Praktyki/x265/CMakeFiles/x265-static.dir
+E:/Praktyki/x265/CMakeFiles/x265-shared.dir
+E:/Praktyki/x265/CMakeFiles/cli.dir
+E:/Praktyki/x265/CMakeFiles/INSTALL.dir
+E:/Praktyki/x265/CMakeFiles/ALL_BUILD.dir
+E:/Praktyki/x265/CMakeFiles/ZERO_CHECK.dir
+E:/Praktyki/x265/encoder/CMakeFiles/encoder.dir
+E:/Praktyki/x265/encoder/CMakeFiles/INSTALL.dir
+E:/Praktyki/x265/common/CMakeFiles/common.dir
+E:/Praktyki/x265/common/CMakeFiles/INSTALL.dir

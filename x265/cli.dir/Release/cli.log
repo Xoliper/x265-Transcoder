@@ -1,0 +1,12 @@
+﻿  input.cpp
+  output.cpp
+  raw.cpp
+  reconplay.cpp
+  x265-extras.cpp
+  x265.cpp
+  yuv.cpp
+  y4m.cpp
+  yuv.cpp
+  y4m.cpp
+     Creating library E:/Praktyki/x265/Release/x265.lib and object E:/Praktyki/x265/Release/x265.exp
+  cli.vcxproj -> E:\Praktyki\x265\Release\x265.exe
