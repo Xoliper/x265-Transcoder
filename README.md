@@ -4,7 +4,7 @@ This application, encode an raw image (.yuv) into High Efficiency Video Coding f
 
 ### Authors:
 
-     # Arkadiusz Jarlaczyk & Mateusz Niewczas
+Arkadiusz Jarlaczyk & Mateusz Niewczas
 
 ### Commands:
 
