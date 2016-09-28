@@ -2,6 +2,10 @@
 
 This application, encode an raw image (.yuv) into High Efficiency Video Coding format (x265). After the initial encoding (which generates additional data necessary for the post processing), transcoder can convert the image approx 10 times faster.
 
+### Authors:
+
+     # Arkadiusz Jarlaczyk & Mateusz Niewczas
+
 ### Commands:
 
 *    --transcoder-file {path_to_the_transcoder_temp_folder}
